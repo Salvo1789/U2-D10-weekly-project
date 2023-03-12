@@ -10,19 +10,24 @@
   </head>
   <body class="bg-dark">
     
+    <a class="position-absolute top-0 left-0 ps-2 pt-2" href="./index.html">
+      <img src="./assets/netflix_logo.png" alt="Netflix" width="95" height="50">
+    </a>
+
     <div class="container-fluid w-50 pt-5">
+
 
       <h1 class="font-monospace border-bottom-1 text-light mt-5">Edit Profile</h1>
 
       <hr class="hr text-light w-75">
 
-      <div class="row">
+      <div class="row g-1">
 
-        <div class="col-lg-3 px-0">
-          <img src="./assets/avatar.png" width="170" height="170">
+        <div class="col-lg-3 col-md-12">
+          <img src="./assets/avatar.png" class="img-fluid" width="160" height="160">
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
 
           <!--Input nome-->
           <div>
@@ -31,7 +36,7 @@
 
           <!--lingua-->
           <div>
-            <h3 class="text-secondary">Lingua:</h3>
+            <h4 class="text-secondary">Lingua:</h4>
             <div class="btn-group w-25">
               <button class="btn btn-outline-light dropdown-toggle rounded-0 mb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Italiano
@@ -47,21 +52,21 @@
             </div>
           </div>
 
-          <hr class="hr text-light w-75">
+          <hr class="hr text-light">
 
           <!--Maturity settings-->
           <div>
-            <h3 class="text-secondary py-2">Maturity Settings:</h3>
-            <button type="button" class="btn btn-secondary py-2">ALL MATURITY RATINGS</button>
-            <p class="text-light py-2">Show titles of <span>all maturity ratings</span> for this profile</p>
-            <button type="button" class="btn btn-outline-light py-1 px-4 my-3 rounded-0">EDIT</button>
+            <h4 class="text-secondary py-2">Maturity Settings:</h4>
+            <button type="button" class="btn btn-secondary py-2 rounded-1">ALL MATURITY RATINGS</button>
+            <p class="text-light pt-2">Show titles of <span>all maturity ratings</span> for this profile</p>
+            <button type="button" class="btn btn-outline-secondary py-1 px-4 my-3 rounded-0">EDIT</button>
           </div>
 
-          <hr class="hr text-light w-75">
+          <hr class="hr text-light">
 
           <!--Autoplay controls-->
           <div>
-            <h3 class="text-secondary py-2">Autoplay controls</h3>
+            <h4 class="text-secondary py-1">Autoplay controls</h4>
 
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -84,14 +89,14 @@
 
       <!--save & other buttons-->
       <div class="row w-75">
-        <div class="col-lg-4 g-0">
-          <button type="button" class="btn btn-outline-light py-2 px-4 my-3 rounded-0 fs-5">SAVE</button>
+        <div class="col-lg-3">
+          <button type="button" class="btn btn-outline-light py-2  my-3 rounded-0 fs-5 w-100">SAVE</button>
         </div>
-        <div class="col-lg-4 g-0">
-          <button type="button" class="btn btn-outline-light py-2 px-4 my-3 rounded-0 fs-5">CANCEL</button>
+        <div class="col-lg-3">
+          <button type="button" class="btn btn-outline-light py-2  my-3 rounded-0 fs-5 w-100">CANCEL</button>
         </div>
-        <div class="col-lg-4 g-0">
-          <button type="button" class="btn btn-outline-light py-2 px-4 my-3 rounded-0 fs-5">DELETE PROFILE</button>
+        <div class="col-lg-6">
+          <button type="button" class="btn btn-outline-light py-2  my-3 rounded-0 fs-5 w-100">DELETE PROFILE</button>
         </div>
       </div>
 
